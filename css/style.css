@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rubik Vinyl', cursive;
+font-family: 'Work Sans', sans-serif;
+}
+/* header and navbar styles */
+.header{
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+.navbar{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 224px;
+    padding-right: 224px;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+/* banner styles */
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 102px 529px 50px 529px;
+    gap: 25px;
+}
+.banner-container>img{
+    width: 75%;
+    padding: 0 240px 50px 240px;
+
+}
+.text-primary{
+    font-size: 64px;
+    font-weight: 700;
+}
+.text-description{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+/* Quick Features Styles */
+.quick-features{
+    display: flex;
+    padding: 30px 301px;
+    gap: 76px;
+    justify-content: center;
+    align-items: center;
+}
+.quick-features-details{
+    display: grid;
+    gap: 25px;
+}
+.works{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.works>img{
+    width: auto;
+}
+.works-header{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.heading-1{
+    font-weight: 700;
+    color: #131313;
+}
+.heading-2{
+    color: #FF900E;
+}
+
+.main-feature{
+    display: flex;
+    gap: 54px;
+    padding: 30px 200px;
+}
+.features{
+    flex: 1;
+}
+.feature-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feature-title{
+    font-weight: 600;
+    font-size: 20px;
+}
+.feature{
+    padding: 10px;
+    box-shadow: 8px 8px 8px 8px #f7efefcc;
+    border-radius: 8px;
+}
+.features-title{
+    font-size: 45px;
+    font-size: 700;
+    padding-left: 5px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 30px;
+}
+.features-description{
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 20px;
+}
